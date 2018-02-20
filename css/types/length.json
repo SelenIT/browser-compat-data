@@ -127,7 +127,10 @@
                 "version_added": "4"
               },
               "ie": {
-                "version_added": "9"
+                "version_added": "9",
+                "notes": [
+                  "IE supports the <code>ch</code> unit, but unlike other browsers its width is that specifically of the \"0\" glyph, not its surrounding space. As a result, 3ch for example is shorter than the width of the string \"000\" in IE."
+                ]
               },
               "opera": {
                 "version_added": "20"
